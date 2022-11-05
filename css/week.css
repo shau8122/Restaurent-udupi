@@ -1,0 +1,132 @@
+.week {
+  padding: 20px;
+  margin: 0 30px;
+  /* border: 2px solid red; */
+}
+.week-heading {
+  /* border: 2px solid black; */
+  text-align: center;
+  /* margin: 50px 0; */
+  padding: 20px;
+  /* width: 100%; */
+  font-weight: bold;
+}
+.week-heading p {
+  margin: 20px;
+}
+.switchover-container {
+  /* border: 2px solid grey; */
+  display: flex;
+  justify-content: center; 
+  flex-wrap: wrap;
+}
+.week-switchover {
+  /* border: 2px solid red; */
+  /* box-sizing: border-box; */
+  /* width: 30%; */
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.week-icon {
+  /* border: 2px solid rgb(38, 7, 213); */
+  /* height: 20vh;
+  width: 10%; */
+  border-radius: 10px;
+  /* margin: 30px 20px; */
+  /* box-sizing: border-box; */
+  padding: 15px;
+  text-align: center;
+}
+.week-icon img {
+  /* border: 2px solid rgb(38, 7, 213); */
+  width: 40px;
+  height: 40px;
+  /* margin: 0 10px; */
+  
+}
+.week-item {
+  /* border: 2px solid green; */
+  margin: 30px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: row-reverse; */
+  /* width: 100%; */
+  justify-content: space-evenly;
+}
+#breakfast-item {
+  display: block;
+  background-color: #b9bab8;
+}
+#lunch-item {
+  background-color: #b9bab8;
+  display: none;
+}
+#dinner-item {
+  background-color: #b9bab8;
+  display: none;
+}
+.week-list {
+  width: 35%;
+  /* box-sizing: border-box; */
+  /* padding: 0 50px ; */
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  /* justify-content: space-around; */
+  /* border: 2px solid black; */
+}
+@media screen and (max-width: 800px) {
+  .week-list {
+    width: 50%;
+  }
+  .week-item {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 800px) {
+  .week-list-item {
+    flex-wrap: wrap;
+  }
+  
+}
+.week-list-item {
+  background-color: #821423;
+  border-radius: 20px;
+  border: 2px solid red;
+  color: white;
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+}
+.week-para {
+  padding: 10px;
+}
+.week-image {
+  padding: 5px;
+}
+.week-para h1,
+.price-tag h1{
+  font-size: 1.5rem;
+}
+.week-para p{
+  font-size: 1.1rem;
+}
+.week-icon p{
+  font-size: 1.3rem;
+}
+.price-tag  {
+  background-color: #ff0022;
+  border-radius: 10px;
+  width: 25%;
+  padding: 10px;
+  margin: 5px;
+  /* border: 2px solid brown; */
+  text-align: center;
+}

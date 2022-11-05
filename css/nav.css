@@ -1,0 +1,237 @@
+.top-section {
+  /* background-color: #f2f4f3; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  padding: 5px;
+
+  z-index: 20000;
+  /* border: 2px solid green; */
+}
+/* .mobile-menu {
+  display: none;
+  height: 40px;
+  width: 40px;
+} */
+/* .logo h1 {
+  font-size: 1.5rem;
+} 
+  /* display: block; */
+.nav {
+  background-color: #f2f4f3 ;
+  margin: 0px 50px;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 85%;
+  /* border: 2px solid red; */
+  border-radius: 40px;
+  z-index: 100;
+}
+.logo {
+  /* background-color: #000000; */
+  /* display: inline-block; */
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  margin: 0px 57px 5px 71px;
+}
+.logo-item p {
+  
+  font-size: 2.5rem;
+  font-family: 'EB Garamond', serif;
+}
+#logo {
+  height: 75px;
+  width: 75px;
+  margin: 0 7px;
+}
+.navigation-bar-list {
+  margin: 5px 10px;
+  display: flex;
+  font-family: 'Baloo 2', cursive;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 3px 20px;
+  padding: 1px 10px;
+  cursor: pointer;
+}
+li:hover {
+  background-color: #ff0022;
+  text-decoration: underline;
+  color: white;
+  border-radius: 10px;
+}
+a {
+  color: #8a2be2;
+  text-decoration: none;
+  /* display: block; */
+}
+li a:hover  {
+  color: white;
+  
+}
+li a:active  {
+  text-decoration: underline;
+  text-decoration-color: #060606;
+  
+}
+
+.hamburger-container {
+  
+  background-color: #f2f4f3 ;
+  display: none;
+  
+  padding: 5px;
+  position: sticky;
+  top: 0;
+  /* position: relative; */
+  width: 100%;
+  /* height: 50%; */
+  /* border: 2px solid red; */
+  align-items: center;
+  box-sizing: border-box;
+  z-index: 5000000;
+}
+.hamburger-logo {
+  box-sizing: border-box;
+  display: flex;
+  /* display: inline-block; */
+  /* border: 2px solid blue; */
+  left: 10%;
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+  /* height: 100%; */
+}
+.hamburger-change {
+  box-sizing: border-box;
+  /* border: 2px solid red; */
+  display: inline-block;
+  position: absolute;
+  top: 40%;
+  right: 20%;
+  /* position: sticky; */
+}
+.hamburger-logo p {
+  box-sizing: border-box;
+  font-size: 2.5rem;
+  /* border: 2px solid black; */
+  font-family: 'EB Garamond', serif;
+  display: inline-block;
+  width: 15%;
+}
+.logo-item {
+  box-sizing: border-box;
+  /* width: 50%; */
+  display: inline-block;
+  /* border: 2px solid green; */
+}
+.logo-item img {
+  height: 75px;
+  width: 75px;
+  margin: 0 7px;
+  /* display: inline; */
+  /* border: 2px solid red; */
+}
+.nav-mobile {
+  display: block;
+  position: fixed;
+  top: 0;
+  right: -40%;
+  /* width: 40%; */
+  width: 40%;
+  height: 100vh;
+  background: rgb(219, 108, 108);
+  /* border: 2px solid red; */
+  /* color: white; */
+  /* z-index: 2000; */
+  z-index: 5000001;
+  transition: all 0.5s ;
+}
+.hamburger-change-cross {
+  margin: 32px 30px 60px 2px;
+}
+.hamburger-change-cross img {
+  width: 35px;
+  height: 35px;
+}
+.nav-mobile ul {
+  /* margin: 10px; */
+  /* border: 2px solid black; */
+  padding: 20px;
+}
+.nav-mobile li {
+  display: block;
+  margin: 20px 5px;
+}
+@media screen and (max-width:800px) {
+  .top-section  {
+    display: none;
+  }
+  .hamburger-container {
+    display: block;
+  }
+  /* .nav-mobile {
+    display: block;
+  } */
+}
+.hamburger-container button {
+  background: transparent;
+  border: 0;
+}
+.hamburger-change-cross button {
+  background: transparent;
+  border: 0;
+}
+/* #home {
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background: url('images/bg1.jpg');
+} */
+/* .home-text {
+  text-align: center;
+  font-family:'GFS Didot', serif;
+  font-size: 1.5rem;
+  color: white;
+  
+} */
+.primary-h {
+  border-radius: 20px;
+  display: inline-block;
+  background-color: rgb(242, 244, 243,0.6);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.home-text h2 {
+  border-radius: 20px;
+  display: inline-block;
+  background-color: rgb(242, 244, 243,0.6);
+}
+.btn {
+  margin: 50px;
+  padding: 20px;
+}
+.btn a {
+  color: white;
+  background-color: red;
+  font-size: 1 rem;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.btn a:hover {
+  color: rgb(2, 40, 40);
+}
