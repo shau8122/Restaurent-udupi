@@ -4,7 +4,6 @@ const nextButton = document.querySelector(".carousel-btn-right");
 const prevButton = document.querySelector(".carousel-btn-left");
 const dotNav = document.querySelector(".carousel-nav");
 const dotBtn = Array.from(dotNav.children);
-
 const slideWidth = slides[0].getBoundingClientRect().width;
 for (var i = 0; i < slides.length; i++) {
   arrangeSlide(i, slides[i]);

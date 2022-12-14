@@ -11,4 +11,4 @@ exitNav.addEventListener("click",exitMenu);
 function exitMenu (){
   nav.style.right = "-40%";
 }
-console.log(nav);
+// console.log(nav);

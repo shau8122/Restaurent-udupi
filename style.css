@@ -2,19 +2,23 @@
   margin: 0;
   padding: 0;
 }
+
 html {
   scroll-behavior: smooth;
 }
+
 body {
-  background-color:#f2f4f3 ;
+  background-color: #f2f4f3;
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
-  color:#0a0908 ;
+  color: #0a0908;
 }
+
 p {
   font-size: 20px;
   /* display: block; */
 }
+
 .back-to-top {
   position: fixed;
   bottom: 20px;
@@ -24,7 +28,8 @@ p {
   background: #f2f4f3;
   z-index: 210210210;
 }
+
 .back-to-top img {
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
 }
