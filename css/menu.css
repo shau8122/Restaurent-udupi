@@ -1,5 +1,4 @@
-.menu-section {
-  /* height: 100vh; */
+#menu {
   width: 100%;
   position: relative;
   /* border: 2px solid red; */
@@ -13,34 +12,35 @@
   text-align: center;
   margin-bottom: 50px;
 }
-.menu-container {
-  /* width: 100%; */
-  top: 30vh;
-  /* height: 69vh; */
-  /* border: 2px solid blue; */
-  box-sizing: border-box;
+.menu-container{
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .menu-inside {
   /* height: 80%; */
-  width: 100%;
+  width: 80%;
+  position: relative;
+  height: 400px;
+  box-sizing: border-box;
   /* border: 2px solid green; */
-  /* flex-direction: column; */
-  flex-wrap: wrap;
-  /* flex-direction: column; */
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+  overflow: hidden;
+  transition: all ;
 }
 .menu-card {
-  position: relative;
+  position: absolute;
   width: 250px;
   height: 350px;
   /* border: 2px solid gray; */
   overflow: hidden;
   margin: 20px;
+  transition: all 0.5s ease;
+}
+.menu-img {
+  height: 40px;
+  width: 40px;
+  padding: 10px;
+  margin: 10px;
 }
 .menu-card img {
   height: 100%;
